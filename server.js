@@ -58,7 +58,7 @@ res.send(response);
 app.use(keycloak.middleware({ logout: '/logout' }));
 
 
-app.listen(3000, function () {
-    console.log('Listening at http://localhost:3000');
+app.listen(4000, function () {
+    console.log('Listening at http://localhost:4000');
     console.log('serving angular app from -> ', path.join(__dirname, '/client/dist/Neighbourhood/'));
 });
